@@ -1,0 +1,1 @@
+<?php	session_start();	if (!isset($_SESSION['nama_user_login']))	{	//menampilkan pesan jika belum login		echo '			<script>			alert(\'Maaf Anda Tidak Dapat Mengakses Halaman ini, Login Dahulu !\');			window.location="index.php";			</script>			';		exit;	//akhir pengecekan	}?>
